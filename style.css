@@ -8,6 +8,25 @@
     object-fit: cover;
     z-index: -1;
 }
+@media(max-width:768px){
+
+nav{
+    flex-direction:column;
+}
+
+.article-card{
+    width:100%;
+}
+
+h1{
+    font-size:28px;
+}
+
+p{
+    font-size:16px;
+}
+
+}
 .news-card img{
     width: 300px;
     height: 180px;
@@ -52,6 +71,9 @@ main{
     padding: 30px;
     border-radius: 15px;
     color: black;
+}
+.articles{
+    display:flex;
 }
 .article-container img{
     display: block;
