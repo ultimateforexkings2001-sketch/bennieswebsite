@@ -17,6 +17,10 @@ nav{
 .article-card{
     width:100%;
 }
+    img{
+    width:100%;
+    height:auto;
+}
 
 h1{
     font-size:28px;
