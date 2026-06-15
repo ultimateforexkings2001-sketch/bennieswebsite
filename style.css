@@ -8,15 +8,7 @@
     object-fit: cover;
     z-index: -1;
 }
-@media(max-width:768px){
 
-nav{
-    flex-direction:column;
-}
-
-.article-card{
-    width:100%;
-}
     img{
     width:100%;
     height:auto;
@@ -255,3 +247,22 @@ footer{
 .back-btn:hover{
     background: red;
 }
+
+ @media(max-width:768px){
+
+nav{
+    flex-direction:column;
+}
+
+.article-card{
+    width:100%;
+}
+
+h1{
+    font-size:28px;
+}
+
+p{
+    font-size:16px;
+}
+
